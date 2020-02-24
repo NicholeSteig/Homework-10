@@ -11,22 +11,10 @@ function generateHTML(data) {
     <nav class="navbar navbar-light bg-light">
         <span class="navbar-brand mb-0 h1">My Team</span>
       </nav>
-
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Name</h5>
-          <h6 class="card-subtitle mb-2 text-muted">position</h6>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">ID: </li>
-            <li class="list-group-item">Email: </li>
-            <li class="list-group-item">GitHub: </li>
-          </ul>
-        </div>
-      </div>
 </body>
 
 </html>`
 
-}
+};
 
 module.exports = generateHTML;
